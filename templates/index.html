@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: "PT Sans", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .card-img-left {
+            width: 300px;
+        }
+
+        .fa-code {
+            font-size: 80px;
+            margin: 8px;
+
+        }
+
+        .row {
+            justify-content: center;
+            gap: 64px;
+
+        }
+
+        .card {
+            box-shadow: 4px 2px rgba(0, 0, 0, 0.08);
+        }
+
+        .lead {
+            font-weight: bold;
+
+        }
+
+        .py-5 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .mypost {
+            width: 95%;
+            max-width: 500px;
+            margin: 20px auto 0px auto;
+            padding: 20px;
+            box-shadow: 0px 0px 3px 0px gray;
+            margin-bottom: 20px;
+        }
+
+        .mybtns {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 4px;
+        }
+
+        .mybtns>button {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portofolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portofolio">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="home" class="py-5 text-center">
+        <div class="container">
+            <h1>Fakih Manarul Hidayat</h1>
+            <h5>MAHASISWA</h5>
+            <p class="lead"><b>Ini adalah project Portofolio yang ditugaskan hari ini</b></p>
+        </div>
+    </section>
+
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <img src="../static/assets/Fakih.jpg" class="card-img-left" alt="...">
+                <div class="col-lg-6">
+                    <h2>About Me</h2>
+                    <p>Hallo saya fakih sebagai mahasiswa semester genap, ini adalah tugas mandiri pertama saya yang
+                        diberikan oleh mentor msib dari mitra learning x.</p>
+                </div>
+                <div class="col-lg-6">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="service" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Service</h2>
+            <div class="row">
+
+                <div class="card" style="width: 18rem;">
+                    <i class="fa fa-code text-center" aria-hidden="true"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text">ini adalah skill saya dalam membangun WEB.</p>
+                        <a href="" class="btn btn-primary">Detail</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <i class="fa fa-code text-center" aria-hidden="true"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text">ini adalah skill saya dalam membangun WEB.</p>
+                        <a href="" class="btn btn-primary">Detail</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <i class="fa fa-code text-center" aria-hidden="true"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text">ini adalah skill saya dalam membangun WEB.</p>
+                        <a href="" class="btn btn-primary">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portofolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Portofolio</h2>
+            <div class="row">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="../static/assets/login.JPG" class="card1-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Project saya</h5>
+                        <p class="card-text">Membangun halaman login agar user atau admin bisa masukke halaman Website.</p>
+                        <a href="" class="btn btn-primary">Detail</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="../static/assets/Home.JPG" class="card1-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Project saya</h5>
+                        <p class="card-text">Membangun Website informasi club sepak bola pada tugas akhir kuliah
+                            disemester ganjil.</p>
+                        <a href="" class="btn btn-primary">Detail</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="../static/assets/tenhag.JPG" class="card1-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Project saya</h5>
+                        <p class="card-text">Membangun Website informasi club sepak bola pada tugas akhir kuliah
+                            disemester ganjil.</p>
+                        <a href="" class="btn btn-primary">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <h2 class="text-center">Contact Me</h2>
+    </div>
+
+    <section id="contact" class="py-5">
+        <div class="mypost">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Enter Movie URL">
+                <label for="floatingInput">Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Enter Movie URL">
+                <label for="floatingInput">Email</label>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comment</label>
+            </div>
+            <div class="mybtns">
+                <button type="button" class="btn btn-outline-info">save</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; Fakih Manarul</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
